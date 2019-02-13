@@ -1,1 +1,9 @@
+body {
+  background-image: url(https://collenda.com/imagecache/fit/uploads/2018/10/artificial-intelligence-3382509-960-720.jpg?size=16x9-xl);
+}
 
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
