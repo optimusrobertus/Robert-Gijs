@@ -2,6 +2,11 @@ body {
   background-image: url(https://www.gamekings.tv/wp-content/uploads/Ai.jpg);
 }
 
+li{
+  display:block;
+  float:left;
+}
+
 .nav {
 	margin: 27px auto 0;
 	position: relative;
@@ -43,32 +48,32 @@ body {
 }
 
 .nav a:afraid.html {
-	width: 100px;
+	width: 250;
 }
 
 .nav a:about.html {
 	width: 160px;
 }
 
-.nav .start-index, a:index.html:hover~.animation {
+.nav a:index.html:hover~.animation {
 	width: 100px;
 	left: 0;
 	background-color: #1abc9c;
 }
 
-.nav .start-info, a:info.html:hover~.animation {
+.nav a:info.html:hover~.animation {
 	width: 110px;
 	left: 100px;
 	background-color: #e74c3c;
 }
 
-.nav .start-afraid, a:afraid.html:hover~.animation {
+.nav a:afraid.html:hover~.animation {
 	width: 100px;
 	left: 210px;
 	background-color: #3498db;
 }
 
-.nav .start-about, a:about.html:hover~.animation {
+.nav a:about.html:hover~.animation {
 	width: 160px;
 	left: 310px;
 	background-color: #9b59b6;
