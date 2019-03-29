@@ -1,81 +1,35 @@
 body {
-  background-image: url(https://www.gamekings.tv/wp-content/uploads/Ai.jpg);
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
-li{
-  display:block;
-  float:left;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.nav {
-	margin: 27px auto 0;
-	position: relative;
-	width: 590px;
-	height: 50px;
-	background-color: #34495e;
-	border-radius: 8px;
-	font-size: 0;
+li {
+  float: left;
 }
 
-.nav a {
-	line-height: 50px;
-	height: 100%;
-	font-size: 15px;
-	display: inline-block;
-	position: relative;
-	z-index: 1;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	color: white;
-	cursor: pointer;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.nav .animation {
-	position: absolute;
-	height: 100%;
-	top: 0;
-	z-index: 0;
-	transition: all .5s ease 0s;
-	border-radius: 8px;
-}
-.nav a:index.html {
-	width: 100px;
+li a:hover {
+  background-color: #111;
 }
 
-.nav a:info.html {
-	width: 110px;
+.active {
+  background-color: #4CAF50;
 }
-
-.nav a:afraid.html {
-	width: 250;
-}
-
-.nav a:about.html {
-	width: 160px;
-}
-
-.nav a:index.html:hover~.animation {
-	width: 100px;
-	left: 0;
-	background-color: #1abc9c;
-}
-
-.nav a:info.html:hover~.animation {
-	width: 110px;
-	left: 100px;
-	background-color: #e74c3c;
-}
-
-.nav a:afraid.html:hover~.animation {
-	width: 100px;
-	left: 210px;
-	background-color: #3498db;
-}
-
-.nav a:about.html:hover~.animation {
-	width: 160px;
-	left: 310px;
-	background-color: #9b59b6;
-}
-
