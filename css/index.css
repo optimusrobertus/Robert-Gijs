@@ -1,27 +1,21 @@
  body {
-
-  font-family: 'Open Sans', sans-serif;
+  background-image: url('../assets/img/AIbrain.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:"Open Sans", Helvetica, Arial, sans-serif;
 }
 
-.container {
-  position: relative;
-  text-align: center;
+.container {   
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: center;
+  align-items: center;
+  justify-content: center;
   color: white;
-}
+  font-size: 100px;
+} 
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#wallpaper {
-  position: sticky;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
 
 /* ul {
   list-style-type: none;
