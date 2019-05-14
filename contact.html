@@ -40,10 +40,10 @@
 
 <div class="container">
   <form id="contact" action="" method="post">
-    <h3>Quick Contact</h3>
-    <h4>Contact us today, and get reply with in 24 hours!</h4>
+    <h3>Contact us</h3>
+    <h4>If you still have any questions, you can contact us. We'll try to reply within 24 hours!</h4>
     <fieldset>
-      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
     </fieldset>
     <fieldset>
       <input placeholder="Your Email Address" type="email" tabindex="2" required>
@@ -51,12 +51,21 @@
     <fieldset>
       <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
     </fieldset>
-
     <fieldset>
-      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+      <select placeholder="Your Country" tabindex="4" required>
+        <option value="NL">The Netherlands</option>
+        <option value="BE">Belgium</option>
+        <option value="DE">Germany</option>
+        <option value="UK">The United Kingdom</option>
+        <option value="USA">The United States of America</option>
+        <option value="other">Other</option>
+      </select>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    <fieldset>
+      <textarea placeholder="Type Your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" onclick="alert('We'll try to reach out to you as soon as possible!')">Submit</button>
     </fieldset>
   </form>
 
