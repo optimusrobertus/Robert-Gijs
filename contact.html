@@ -49,15 +49,16 @@
       <input placeholder="Your Email Address" type="email" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" pattern="[0]{1}[6]{1}[0-9]{8}" required>
     </fieldset>
     <fieldset>
-      <select placeholder="Your Country" tabindex="4" required>
+      <select tabindex="4" required>
+        <option value="NoOption" disabled selected hidden>Your Country</option>
         <option value="NL">The Netherlands</option>
         <option value="BE">Belgium</option>
         <option value="DE">Germany</option>
         <option value="UK">The United Kingdom</option>
-        <option value="USA">The United States of America</option>
+        <option value="USA">The USA</option>
         <option value="other">Other</option>
       </select>
     </fieldset>
