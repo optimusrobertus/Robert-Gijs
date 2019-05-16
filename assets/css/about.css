@@ -20,4 +20,10 @@ body {
   font-weight: bold;
 }
 
-
+#image {
+  width: 144px;
+  height: 128px;
+  float: left;
+  margin: 3%;
+  border: 2px grey solid;
+}

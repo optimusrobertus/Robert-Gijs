@@ -3,9 +3,7 @@ body {
 	font-weight:300;
 	font-size: 12px;
 	line-height:30px;
-	color:#777;
   background-image: url('../img/AIbrain.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
