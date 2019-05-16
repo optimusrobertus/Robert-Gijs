@@ -1,40 +1,40 @@
 body {
-	font-family:"Open Sans", Helvetica, Arial, sans-serif;
-	font-weight:300;
-	font-size: 12px;
-	line-height:30px;
-  background-image: url('../img/AIbrain.jpg');
-  background-size: cover;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    background-image: url('../img/AIbrain.jpg');
+    background-size: cover;
 }
 
 .container {
-  color: #212529;
-  background-color: #F9F9F9;
-  border-radius: 5px;
-  padding: 1%;
+    color: #212529;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    padding: 1%;
 }
 
 .container caption {
-  caption-side: top;
+    caption-side: top;
 }
 
 .container ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .container table {
-  border-collapse: collapse;
-  border: 1px solid #343a40;
+    border-collapse: collapse;
+    border: 1px solid #343a40;
 }
 
 .container th {
-  background-color: #343a40;
-  color: white;
+    background-color: #343a40;
+    color: white;
 }
 
 .container tr:nth-child(even) {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
